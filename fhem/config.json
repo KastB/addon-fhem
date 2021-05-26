@@ -1,0 +1,45 @@
+{
+  "name": "FHEM",
+  "version": "0.0.1",
+  "slug": "fhem",
+  "description": "FHEM Plugin",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/KastB/hassio-addons-fhem",
+  "startup": "services",
+  "boot": "auto",
+  "webui": "http://[HOST]:[PORT:8083]",
+  "panel_icon": "mdi:HomeFloorL",
+  "panel_title": "FHEM",
+  "uart": true,
+  "gpio": false,
+  "ports": {
+    "8083/tcp": 8083
+  },
+  "ports_description": {
+    "8083/tcp": "WebUI"
+  },
+  "map": ["config:rw"],
+  "host_network": false,
+  "environment": {
+  },
+  "devices": [
+  ],
+  "privileged": [
+    "SYS_ADMIN",
+    "SYS_RAWIO"
+  ],
+  "init": false,
+  "options": {
+    "apt_pks": "",
+    "pip_pks": "",
+    "npm_pks": "",
+    "cpan_pks": ""
+  },
+  "schema": {
+    "apt_pks": "str",
+    "pip_pks": "str",
+    "npm_pks": "str",
+    "cpan_pks": "str"
+  }
+
+}

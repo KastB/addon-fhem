@@ -1,0 +1,11 @@
+{
+    "build_from": {
+      "amd64": "fhem/fhem-amd64_linux",
+      "armhf": "fhem/fhem-arm32v7_linux",
+      "armv7": "fhem/fhem-arm32v7_linux",
+      "i386": "fhem/fhem-i386_linux",
+      "aarch64": "fhem/fhem-arm64v8_linux"
+    },
+    "args": {
+    }
+  }
