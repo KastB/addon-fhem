@@ -33,7 +33,7 @@
     "apt_pks": "",
     "pip_pks": "",
     "npm_pks": "",
-    "cpan_pks": ""
+    "cpan_pks": "Net::MQTT  Net::MQTT::Message Net::MQTT::Message::JustMessageId"
   },
   "schema": {
     "apt_pks": "str",
