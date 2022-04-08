@@ -4,7 +4,7 @@
   "slug": "fhem",
   "description": "FHEM Plugin",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/KastB/hassio-addons-fhem",
+  "url": "https://github.com/KastB/addon-fhem",
   "startup": "services",
   "boot": "auto",
   "webui": "http://[HOST]:[PORT:8083]",
