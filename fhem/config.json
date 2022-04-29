@@ -12,6 +12,7 @@
   "panel_title": "FHEM",
   "uart": true,
   "gpio": false,
+  "ingress": true,
   "ports": {
     "8083/tcp": 8083
   },
