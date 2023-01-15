@@ -1,6 +1,6 @@
 {
   "name": "FHEM",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "fhem",
   "description": "FHEM Plugin",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -13,6 +13,7 @@
   "uart": true,
   "gpio": false,
   "ingress": true,
+  "ingress_port": 8083
   "ports": {
     "8083/tcp": 8083
   },
