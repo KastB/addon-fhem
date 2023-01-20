@@ -1,21 +1,22 @@
 {
   "name": "FHEM",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "slug": "fhem",
   "description": "FHEM Plugin",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/KastB/addon-fhem",
   "startup": "services",
   "boot": "auto",
-  "webui": "http://[HOST]:[PORT:8083]",
+  "webui": "http://[HOST]:[PORT:8083]/fhem",
   "panel_icon": "mdi:HomeFloorL",
   "panel_title": "FHEM",
   "uart": true,
   "gpio": false,
-  "ingress": true,
-  "ingress_port": 8083,
+  "ingress": false,
+  "apparmor": false,
   "ports": {
-    "8083/tcp": 8083
+    "8083/tcp": 8083,
+    "23/tcp": null
   },
   "ports_description": {
     "8083/tcp": "WebUI"

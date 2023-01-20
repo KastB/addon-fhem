@@ -5,10 +5,9 @@ FROM $BUILD_FROM
 LABEL maintainer="kastbernd@gmx.de"
 
 # Copy data for add-on
-RUN rm -rf /opt/fehm
 
 COPY run.sh /
-RUN chmod a+x /run.sh
+RUN rm -rf /opt/fehm && chmod a+x /run.sh
 
 WORKDIR "/"
 ENTRYPOINT [ ]
