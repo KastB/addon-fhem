@@ -16,10 +16,11 @@
   "apparmor": false,
   "ports": {
     "8083/tcp": 8083,
-    "23/tcp": null
+    "7072/tcp": null
   },
   "ports_description": {
-    "8083/tcp": "WebUI"
+    "8083/tcp": "WebUI",
+    "7072/tcp": "telnet"
   },
   "map": ["config:rw"],
   "host_network": false,
